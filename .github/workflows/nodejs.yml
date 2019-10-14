@@ -24,7 +24,6 @@ jobs:
         npm test
       env:
         CI: true
-        jobs:
   lint:
     name: Node Code Formatter
     runs-on: ubuntu-latest
